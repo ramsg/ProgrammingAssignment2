@@ -3,7 +3,7 @@
 ## This function creates a matrix object which has the ability to 
 ## calculate the inverse of the matrix and cache the inverse 
 ## Everytime the matrix changes the inverse of the matrix is 
-## calculated and cached
+## set to NULL, using cacheSolve() it has to be calculated and cached
 
 makeCacheMatrix <- function(my_mat = matrix()) {
   
